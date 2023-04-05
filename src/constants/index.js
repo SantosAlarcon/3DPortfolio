@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -11,7 +10,7 @@ import {
   redux,
   tailwind,
   nodejs,
-  mongodb,
+  bootstrap,
   git,
   figma,
   docker,
@@ -28,35 +27,31 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Sobre mí",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Trabajos",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "Contacto",
   },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Diseñador Web",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Desarrollador de React",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Desarrollador Backend",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
+  }
 ];
 
 const technologies = [
@@ -93,8 +88,8 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Bootstrap",
+    icon: bootstrap,
   },
   {
     name: "Three JS",

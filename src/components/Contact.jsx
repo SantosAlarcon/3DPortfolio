@@ -21,6 +21,10 @@ const Contact = () => {
 	};
 	const handleSubmit = (e) => {
 		e.preventDefault();
+
+		const service = "service_pvuk9gl";
+		const template = "template_2usneng";
+		const key = "NeOO99lpyn65FvPP2";
 		setLoading(true);
 		emailjs
 			.send(

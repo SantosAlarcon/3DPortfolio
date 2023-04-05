@@ -13,6 +13,11 @@
   color-scheme: dark;
 }
 
+.bg-navbar {
+    background-color: rgb(5 8 22 / 0.5);
+}
+
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;

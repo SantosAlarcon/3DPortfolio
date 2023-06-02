@@ -16,7 +16,7 @@ import javascript from "./tech/javascript.png";
 import bootstrap from "./tech/bootstrap.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import express from "./tech/express.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -48,7 +48,7 @@ export {
   bootstrap,
   nodejs,
   reactjs,
-  redux,
+  express,
   tailwind,
   typescript,
   threejs,

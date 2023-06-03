@@ -13,6 +13,10 @@
   color-scheme: dark;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .bg-navbar {
     background-color: rgb(5 8 22 / 0.5);
 }

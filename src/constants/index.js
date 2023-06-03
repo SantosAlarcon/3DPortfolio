@@ -21,6 +21,7 @@ import {
     shopify,
     carrent,
     jobit,
+    lavelada3,
     tripguide,
     threejs,
 } from "../assets";
@@ -217,6 +218,23 @@ const projects = [
         ],
         image: carrent,
         source_code_link: "https://github.com/",
+    },
+    {
+        name: "La Velada del Año 3",
+        description:
+            "Mi versión de la 'landing page' de <b>La Velada del Año III</b> de <b>Ibai Llanos</b>, actualizada con los últimos datos, 100% responsive y optimizada.",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "tailwindcss",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: lavelada3,
+        source_code_link: "https://github.com/SantosAlarcon/LaVelada3",
     },
     {
         name: "Job IT",

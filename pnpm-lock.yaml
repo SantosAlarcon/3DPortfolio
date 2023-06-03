@@ -5,8 +5,8 @@ dependencies:
     specifier: ^3.11.0
     version: 3.11.0
   '@react-three/drei':
-    specifier: ^9.70.3
-    version: 9.70.3(@react-three/fiber@8.13.0)(@types/three@0.150.2)(react-dom@18.2.0)(react@18.2.0)(three@0.151.3)
+    specifier: ^9.71.0
+    version: 9.71.0(@react-three/fiber@8.13.0)(@types/three@0.150.2)(react-dom@18.2.0)(react@18.2.0)(three@0.151.3)
   '@react-three/fiber':
     specifier: ^8.13.0
     version: 8.13.0(react-dom@18.2.0)(react@18.2.0)(three@0.151.3)
@@ -647,8 +647,8 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.70.3(@react-three/fiber@8.13.0)(@types/three@0.150.2)(react-dom@18.2.0)(react@18.2.0)(three@0.151.3):
-    resolution: {integrity: sha512-o1V+cHGVYJwExwlsC6LuBtQ9crtuBmUnr42aDiujCzc4WX4NDRcAPBBi4z9cBlqB7NtsMfh+n8UotXmA3rc4Vg==}
+  /@react-three/drei@9.71.0(@react-three/fiber@8.13.0)(@types/three@0.150.2)(react-dom@18.2.0)(react@18.2.0)(three@0.151.3):
+    resolution: {integrity: sha512-oquKJPsNquD9l0zzFnGlPs8n2jk4wgbZXH/ftkv/e1nr6SSmRxvtipvDrf+++RLslwRdlW5Vw4QCXRD9dyBF2w==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
@@ -662,7 +662,7 @@ packages:
       '@react-spring/three': 9.6.1(@react-three/fiber@8.13.0)(react@18.2.0)(three@0.151.3)
       '@react-three/fiber': 8.13.0(react-dom@18.2.0)(react@18.2.0)(three@0.151.3)
       '@use-gesture/react': 10.2.27(react@18.2.0)
-      camera-controls: 2.4.0(three@0.151.3)
+      camera-controls: 2.4.1(three@0.151.3)
       detect-gpu: 5.0.26
       glsl-noise: 0.0.0
       lodash.clamp: 4.0.3
@@ -884,7 +884,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001492
-      electron-to-chromium: 1.4.417
+      electron-to-chromium: 1.4.419
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.7)
 
@@ -893,8 +893,8 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  /camera-controls@2.4.0(three@0.151.3):
-    resolution: {integrity: sha512-v0ZbU35wZlVAsp2MGzolsVMjdaZL+gCLvyFbETwQTD2+s7lA2S8Bo8NDjKPJqHXxs1Y2ST7eai5ARCKtbp7V9Q==}
+  /camera-controls@2.4.1(three@0.151.3):
+    resolution: {integrity: sha512-tTSyxwUmVDduoGNQMfzDSMQr1A+iQMDGdc89aJWWZdowtNEw8jux8h4uJQLrLfVntWM+DdPBXGAsMAoZaYBDmA==}
     peerDependencies:
       three: '>=0.126.1'
     dependencies:
@@ -1009,8 +1009,8 @@ packages:
     resolution: {integrity: sha512-+3NaRjWktb5r61ZFoDejlykPEFKT5N/LkbXsaddlw6xNSXBanUYpFc2AXXpbJDilPHazcSreU/DpQIaxfX0NfQ==}
     dev: false
 
-  /electron-to-chromium@1.4.417:
-    resolution: {integrity: sha512-8rY8HdCxuSVY8wku3i/eDac4g1b4cSbruzocenrqBlzqruAZYHjQCHIjC66dLR9DXhEHTojsC4EjhZ8KmzwXqA==}
+  /electron-to-chromium@1.4.419:
+    resolution: {integrity: sha512-jdie3RiEgygvDTyS2sgjq71B36q2cDSBfPlwzUyuOrfYTNoYWyBxxjGJV/HAu3A2hB0Y+HesvCVkVAFoCKwCSw==}
 
   /esbuild@0.17.19:
     resolution: {integrity: sha512-XQ0jAPFkK/u3LcVRcvVHQcTIqD6E2H1fvZMA5dQPSOWb3suUbWbfbRf94pjc0bNzRYLfIrDRQXr7X+LHIm5oHw==}
@@ -1096,7 +1096,7 @@ packages:
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      tslib: 2.5.2
+      tslib: 2.5.3
     optionalDependencies:
       '@emotion/is-prop-valid': 0.8.8
     dev: false
@@ -1852,8 +1852,8 @@ packages:
     resolution: {integrity: sha512-Y/arvbn+rrz3JCKl9C4kVNfTfSm2/mEp5FSz5EsZSANGPSlQrpRI5M4PKF+mJnE52jOO90PnPSc3Ur3bTQw0gA==}
     dev: false
 
-  /tslib@2.5.2:
-    resolution: {integrity: sha512-5svOrSA2w3iGFDs1HibEVBGbDrAY82bFQ3HZ3ixB+88nsbsWQoKqDRb5UBYAUPEzbBn6dAp5gRNXglySbx1MlA==}
+  /tslib@2.5.3:
+    resolution: {integrity: sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==}
     dev: false
 
   /update-browserslist-db@1.0.11(browserslist@4.21.7):

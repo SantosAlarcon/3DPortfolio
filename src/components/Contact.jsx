@@ -74,7 +74,7 @@ const Contact = () => {
 					className="mt-12 flex flex-col gap-8"
 				>
 					<label className="flex flex-col">
-						<span className="text-white font-medium mb-4">Nombre</span>
+						<span className="text-white font-medium mb-4">Nombre <span className="text-red-500 font-medium mb-4" title="Campo obligatorio">(*)</span></span>
 						<input
 							className="font-medium bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none"
 							type="text"
@@ -87,7 +87,7 @@ const Contact = () => {
 					</label>
 					<label className="flex flex-col">
 						<span className="text-white font-medium mb-4">
-							Correo electrónico
+							Correo electrónico <span className="text-red-500 font-medium mb-4" title="Campo obligatorio">(*)</span>
 						</span>
 						<input
 							className="font-medium bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none"
@@ -100,7 +100,7 @@ const Contact = () => {
 						/>
 					</label>
 					<label className="flex flex-col">
-						<span className="text-white font-medium mb-4">Mensaje</span>
+						<span className="text-white font-medium mb-4">Mensaje <span className="text-red-500 font-medium mb-4" title="Campo obligatorio">(*)</span></span>
 						<textarea
 							className="font-medium bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none"
 							type="text"

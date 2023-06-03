@@ -222,7 +222,7 @@ const projects = [
     {
         name: "La Velada del Año 3",
         description:
-            "Mi versión de la 'landing page' de <b>La Velada del Año III</b> de <b>Ibai Llanos</b>, actualizada con los últimos datos, 100% responsive y optimizada.",
+            `Mi versión de la 'landing page' de "La Velada del Año III" de Ibai Llanos, actualizada con los últimos datos, 100% responsive y optimizada.`,
         tags: [
             {
                 name: "react",

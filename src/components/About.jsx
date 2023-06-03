@@ -32,11 +32,11 @@ const About = () => {
 		<>
 			<motion.div variants={textVariant()}>
 				<p className={styles.sectionSubText}>Introducción</p>
-				<h2 className={styles.sectionHeadText}>Resúmen</h2>
+				<h2 className={styles.sectionHeadText}>Sobre mí</h2>
 			</motion.div>
 
 			<motion.p
-				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+				className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]"
 				variants={fadeIn("", "", 0.1, 1)}
 			>
 				Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit

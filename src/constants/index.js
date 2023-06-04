@@ -225,12 +225,12 @@ const projects = [
             `Mi versión de la 'landing page' de "La Velada del Año III" de Ibai Llanos, actualizada con los últimos datos, 100% responsive y optimizada.`,
         tags: [
             {
-                name: "react",
-                color: "blue-text-gradient",
+                name: "React",
+                color: "react",
             },
             {
-                name: "tailwindcss",
-                color: "pink-text-gradient",
+                name: "Tailwind CSS",
+                color: "tailwind",
             },
         ],
         image: lavelada3,

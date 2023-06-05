@@ -1,12 +1,16 @@
-lockfileVersion: '6.0'
+lockfileVersion: '6.1'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
 dependencies:
   '@emailjs/browser':
     specifier: ^3.11.0
     version: 3.11.0
   '@react-three/drei':
-    specifier: ^9.71.0
-    version: 9.71.0(@react-three/fiber@8.13.0)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
+    specifier: ^9.73.3
+    version: 9.73.3(@react-three/fiber@8.13.0)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
   '@react-three/fiber':
     specifier: ^8.13.0
     version: 8.13.0(react-dom@18.2.0)(react@18.2.0)(three@0.153.0)
@@ -650,8 +654,8 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.71.0(@react-three/fiber@8.13.0)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0):
-    resolution: {integrity: sha512-oquKJPsNquD9l0zzFnGlPs8n2jk4wgbZXH/ftkv/e1nr6SSmRxvtipvDrf+++RLslwRdlW5Vw4QCXRD9dyBF2w==}
+  /@react-three/drei@9.73.3(@react-three/fiber@8.13.0)(@types/three@0.152.1)(react-dom@18.2.0)(react@18.2.0)(three@0.153.0):
+    resolution: {integrity: sha512-+VcMB6iMAhg6XHWgObSKXd9rfvtkjC4dkG+mIZo9nwbfvySYEAgI1x9G8eZ/hC172dqsoLg8jRSfyvJPJ2BSww==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
@@ -681,7 +685,7 @@ packages:
       suspend-react: 0.0.8(react@18.2.0)
       three: 0.153.0
       three-mesh-bvh: 0.5.24(three@0.153.0)
-      three-stdlib: 2.23.7(three@0.153.0)
+      three-stdlib: 2.23.8(three@0.153.0)
       troika-three-text: 0.47.2(three@0.153.0)
       utility-types: 3.10.0
       zustand: 3.7.2(react@18.2.0)
@@ -891,7 +895,7 @@ packages:
     hasBin: true
     dependencies:
       caniuse-lite: 1.0.30001494
-      electron-to-chromium: 1.4.419
+      electron-to-chromium: 1.4.420
       node-releases: 2.0.12
       update-browserslist-db: 1.0.11(browserslist@4.21.7)
 
@@ -1016,8 +1020,8 @@ packages:
     resolution: {integrity: sha512-+3NaRjWktb5r61ZFoDejlykPEFKT5N/LkbXsaddlw6xNSXBanUYpFc2AXXpbJDilPHazcSreU/DpQIaxfX0NfQ==}
     dev: false
 
-  /electron-to-chromium@1.4.419:
-    resolution: {integrity: sha512-jdie3RiEgygvDTyS2sgjq71B36q2cDSBfPlwzUyuOrfYTNoYWyBxxjGJV/HAu3A2hB0Y+HesvCVkVAFoCKwCSw==}
+  /electron-to-chromium@1.4.420:
+    resolution: {integrity: sha512-BpPy2KXZc+UPbI8NGo2QdHU1Mkq11pO/zaNDHY57L09K/0ytrPw+IiLOUvZ1NjI5BlAVF5DkNr1UBUS76Tc4ow==}
 
   /esbuild@0.17.19:
     resolution: {integrity: sha512-XQ0jAPFkK/u3LcVRcvVHQcTIqD6E2H1fvZMA5dQPSOWb3suUbWbfbRf94pjc0bNzRYLfIrDRQXr7X+LHIm5oHw==}
@@ -1659,8 +1663,8 @@ packages:
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
     dev: false
 
-  /rollup@3.23.0:
-    resolution: {integrity: sha512-h31UlwEi7FHihLe1zbk+3Q7z1k/84rb9BSwmBSr/XjOCEaBJ2YyedQDuM0t/kfOS0IxM+vk1/zI9XxYj9V+NJQ==}
+  /rollup@3.23.1:
+    resolution: {integrity: sha512-ybRdFVHOoljGEFILHLd2g/qateqUdjE6YS41WXq4p3C/WwD3xtWxV4FYWETA1u9TeXQc5K8L8zHE5d/scOvrOQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -1789,8 +1793,8 @@ packages:
       three: 0.153.0
     dev: false
 
-  /three-stdlib@2.23.7(three@0.153.0):
-    resolution: {integrity: sha512-nxs0z6OthtN+Qy6N1Ee0ztR87IcaCEOF+WHCJCzjpu+37c+/IFDzI9igg7xgw4qWM05vETxUAkrXnLRxSZlgcw==}
+  /three-stdlib@2.23.8(three@0.153.0):
+    resolution: {integrity: sha512-dsgh7cyz/zMY6E+b4XsMRuLuY1tD81pgR+VtsRsXaqMKCHdMSjtXOerG5zSwMfjWMd9gbVMHvuhTc5atsG6F/w==}
     peerDependencies:
       three: '>=0.128.0'
     dependencies:
@@ -1906,7 +1910,7 @@ packages:
     dependencies:
       esbuild: 0.17.19
       postcss: 8.4.24
-      rollup: 3.23.0
+      rollup: 3.23.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true

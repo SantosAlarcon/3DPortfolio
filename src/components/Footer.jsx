@@ -10,7 +10,7 @@ const Footer = () => {
             <div className='flex justify-center items-center gap-5'>
                 <a href="mailto:santosalarcon86@gmail.com">
                     <svg id="social" className='w-[36px] h-[36px] hover:scale-125 transition'>
-                        <use width="36px" height="36px" href={`${gmail}#social`} alt="Gmail"></use>
+                        <use width="36px" height="36px" href={`${gmail}#social`} alt="Correo electrónico"></use>
                     </svg>
                 </a>
 

@@ -10,14 +10,19 @@ import "../styles/Navbar.css"
 const Navbar = () => {
     const [active, setActive] = useState("");
     const [toggle, setToggle] = useState(false);
+    const [zIndex, setZIndex] = useState("z-auto");
 
     useEffect(() => {
         if (toggle) {
             document.body.style.overflowY = "hidden";
             document.body.style.overflowX = "hidden";
+            setZIndex("z-50");
         } else {
             document.body.style.overflowY = "auto";
             document.body.style.overflowX = "auto";
+            setTimeout(() => {
+                setZIndex("z-auto");
+            }, [1500])
         }
     }, [toggle])
 
@@ -66,7 +71,7 @@ const Navbar = () => {
                 </div>
             </nav>
             <div
-                className={`${!toggle ? "opacity-0" : "opacity-100"} flex p-6 bg-[#000b] backdrop-blur overflow-hidden fixed top-[4.5em] right-0 min-w-[100%] min-h-[100vh] ${toggle ? "z-50" : "z-auto"} transition duration-300`}
+                className={`${!toggle ? "opacity-0" : "opacity-100"} flex p-6 bg-[#000b] backdrop-blur overflow-hidden fixed top-[4.5em] right-0 min-w-[100%] min-h-[100vh] transition ${zIndex} duration-300`}
             >
                 <ul className="list-none flex justify-center items-center flex-col gap-4 w-full">
                     {navLinks.map((link) => (

@@ -5,7 +5,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { fadeIn, textVariant, slideIn } from "../utils/motion"
 import { SectionWrapper } from "../hoc"
-import photo from "/FotoSantos.jpg"
+import photo from "/FotoSantos.webp"
 
 const ServiceCard = ({ title, icon, index }) => {
     return (
@@ -18,7 +18,7 @@ const ServiceCard = ({ title, icon, index }) => {
                     options={{ max: 45, scale: 1, speed: 450 }}
                     className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
                 >
-                    <img src={icon} alt={title} className="w-16 h-16 object-contain" />
+                    <img src={icon} alt={title} className="w-16 h-16 object-contain" loading="lazy" />
                     <h3 className="text-white text-[20px] font-bold text-center">
                         {title}
                     </h3>
@@ -57,7 +57,7 @@ const About = () => {
                 <motion.div
                     variants={fadeIn("left", "spring", 0.5, 1)}
                 >
-                    <img className="rounded-full max-sm:w-[75%] max-sm:mx-auto" src={photo} />
+                    <img className="rounded-full max-sm:w-[75%] max-sm:mx-auto" alt="Santos Alarcón" src={photo} />
                 </motion.div>
 
             </div>

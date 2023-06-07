@@ -41,7 +41,7 @@ const Navbar = () => {
                             window.scrollTo(0, 0);
                         }}
                     >
-                        <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+                        <img src={logo} alt="logo" className="w-9 h-9 object-contain" loading="lazy" />
                         <p className="text-white text-[18px] font-bold cursor-pointer flex">
                             Santos Alarcón Asensio
                         </p>
@@ -61,6 +61,7 @@ const Navbar = () => {
                     <div className="sm:hidden flex flex-1 justify-end items-center">
                         <img
                             src={toggle ? close : menu}
+                            loading="lazy"
                             alt="menu"
                             className="w-[28px] h-[28px] 
                         object-contain cursor-pointer transition"

@@ -66,7 +66,7 @@ const Navbar = () => {
                 </div>
             </nav>
             <div
-                className={`${!toggle ? "opacity-0" : "opacity-100"} flex p-6 bg-[#000b] backdrop-blur overflow-hidden fixed top-[4.5em] right-0 min-w-[100%] min-h-[100vh] z-50 transition duration-300`}
+                className={`${!toggle ? "opacity-0" : "opacity-100"} flex p-6 bg-[#000b] backdrop-blur overflow-hidden fixed top-[4.5em] right-0 min-w-[100%] min-h-[100vh] ${toggle ? "z-50" : "z-auto"} transition duration-300`}
             >
                 <ul className="list-none flex justify-center items-center flex-col gap-4 w-full">
                     {navLinks.map((link) => (

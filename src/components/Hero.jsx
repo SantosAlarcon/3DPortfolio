@@ -5,14 +5,14 @@ import logo from "/LogoTransparente.webp"
 
 const Hero = () => {
     return (
-        <section className="relative w-full h-screen">
+        <section className="relative w-full h-screen max-sm:h-[30rem]">
             <div
-                className={`${styles.paddingX} absolute inset-0 top-[120px] max-sm:h-[25%] max-w-7xl mx-auto flex flex-row justify-center gap-5`}
+                className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row justify-center gap-5`}
             >
-                    <img className="h-[85%] max-sm:h-auto" src={logo} alt="logo" />
+                    <img className="h-[85%] max-sm:aspect-video max-sm:h-[17rem]" src={logo} alt="logo" />
             </div>
 
-            <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+            {/*<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
                 <a href="#about">
                     <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
                         <motion.div
@@ -28,7 +28,7 @@ const Hero = () => {
                         />
                     </div>
                 </a>
-            </div>
+            </div>*/}
         </section>
     );
 };

@@ -233,16 +233,3 @@ html {
 .css {
     background-color: #446;
 }
-
-.mobileNavLink {
-    opacity: 0;
-    transition: all .3s ease-in-out;
-}
-
-.open.mobileNavLink {
-    opacity: 1;
-}
-
-.mobileNavLink li:n-child(0) {
-    transform: translateX(-40px);
-}

@@ -11,7 +11,7 @@ const ServiceCard = ({ title, icon, index }) => {
     return (
         <Tilt className="xs:w-[250px] w-full select-none">
             <motion.div
-                variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+                variants={slideIn("right", "spring", 0.5 * index, 0.75)}
                 className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
             >
                 <div
@@ -30,14 +30,14 @@ const ServiceCard = ({ title, icon, index }) => {
 
 const About = () => {
     return (
-        <>
+        <div className="overflow-hidden">
             <motion.div variants={textVariant()}>
                 <p className={styles.sectionSubText}>Introducción</p>
                 <h2 className={styles.sectionHeadText}>Sobre mí</h2>
             </motion.div>
 
             <div className="flex max-sm:flex-col-reverse gap-5">
-                <motion.div variants={fadeIn("right", "", 0.1, 1)}>
+                <motion.div variants={fadeIn("right", "tween", 0.1, 1)}>
                     <p className="mt-4 text-secondary text-[18px] max-w-3xl leading-[30px]">
                         Me considero un apasionado <b>desarrollador full-stack junior</b>. Mi devoción por la <b>tecnología</b> y mi <b>curiosidad innata</b> me han llevado a adquirir conocimientos en diferentes áreas del desarrollo web. Desde el <b>diseño de interfaces</b> hasta la implementación de funcionalidades del servidor, ofreciendo una experiencia completa al usuario.
                     </p>
@@ -67,7 +67,7 @@ const About = () => {
                     <ServiceCard key={service.title} index={index} {...service} />
                 ))}
             </div>
-        </>
+        </div>
     );
 };
 

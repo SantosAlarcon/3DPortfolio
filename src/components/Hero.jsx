@@ -9,7 +9,7 @@ const Hero = () => {
             <div
                 className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row justify-center gap-5`}
             >
-                    <img className="h-[85%] max-sm:aspect-video" src={logo} alt="logo" loading="lazy" />
+                    <img className="h-auto object-contain" src={logo} alt="logo" loading="lazy" />
             </div>
 
             {/*<div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">

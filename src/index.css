@@ -221,15 +221,3 @@ html {
     color: skyblue;
     filter: drop-shadow(0 0 .5em skyblue);
 }
-
-.tailwind {
-    background-color: #464686;
-}
-
-.react {
-    background-color: #0784ae;
-}
-
-.css {
-    background-color: #446;
-}

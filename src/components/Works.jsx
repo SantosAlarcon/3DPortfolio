@@ -6,6 +6,7 @@ import { projects } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { github } from "../assets";
 import { fadeIn, textVariant } from "../utils/motion";
+import "../styles/Works.css"
 
 const ProjectCard = ({
     name,

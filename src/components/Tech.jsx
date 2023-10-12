@@ -1,21 +1,29 @@
 import React from "react";
-import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
-import { technologies } from "../constants";
+import { tech_front, tech_back } from "../constants";
 import { styles } from "../styles";
+import TechCard from "./TechCard";
 
 const Tech = () => {
     return (
         <div className="flex flex-col justify-center gap-10">
             <div>
-                <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Estas son las tecnologías que utilizo para el desarrollo.</p>
+                <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Estas son las tecnologías que utilizo para desarrollar mis proyectos.</p>
                 <h2 className={styles.sectionHeadText}>Tecnologías</h2>
             </div>
 
             <div className="flex flex-row flex-wrap">
-                {technologies.map((tech) => (
+                <h3 className="text-2xl w-full">Front-end</h3>
+                {tech_front.map((tech) => (
                     <div className="w-28 h-28" key={tech.name}>
-                        <BallCanvas icon={tech.icon} />
+                        <TechCard image={tech.icon} />
+                    </div>
+                ))}
+
+                <h3 className="text-2xl w-full">Back-end</h3>
+                {tech_back.map((tech) => (
+                    <div className="w-28 h-28" key={tech.name}>
+                        <TechCard image={tech.icon} title={tech.name} />
                     </div>
                 ))}
             </div>

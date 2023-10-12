@@ -4,6 +4,9 @@ export default {
     mode: "jit",
     theme: {
         extend: {
+            height: {
+                "fill-available": "-webkit-fill-available"
+            },
             colors: {
                 primary: "#050816",
                 secondary: "#aaa6c3",

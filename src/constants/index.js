@@ -54,7 +54,7 @@ const services = [
     }
 ];
 
-const technologies = [
+const tech_front = [
     {
         name: "HTML 5",
         icon: html,
@@ -76,12 +76,19 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Express JS",
-        icon: express,
+        name: "Bootstrap",
+        icon: bootstrap,
     },
     {
         name: "Tailwind CSS",
         icon: tailwind,
+    }
+]
+
+const tech_back = [
+    {
+        name: "Express JS",
+        icon: express,
     },
     {
         name: "Node JS",
@@ -92,26 +99,10 @@ const technologies = [
         icon: python,
     },
     {
-        name: "Bootstrap",
-        icon: bootstrap,
-    },
-    {
-        name: "Three JS",
-        icon: threejs,
-    },
-    {
         name: "git",
         icon: git,
-    },
-    {
-        name: "figma",
-        icon: figma,
-    },
-    {
-        name: "docker",
-        icon: docker,
-    },
-];
+    }
+]
 
 const experiences = [
     {
@@ -240,4 +231,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, tech_front, tech_back, experiences, testimonials, projects };

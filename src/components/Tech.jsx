@@ -12,17 +12,17 @@ const Tech = () => {
                 <h2 className={styles.sectionHeadText}>Tecnologías</h2>
             </div>
 
-            <div className="flex flex-row flex-wrap">
+            <div className="flex flex-row flex-wrap justify-between sm:justify-start">
                 <h3 className="text-2xl w-full">Front-end</h3>
                 {tech_front.map((tech) => (
-                    <div className="w-28 h-28" key={tech.name}>
-                        <TechCard image={tech.icon} />
+                    <div className="w-24 h-24 sm:w-28 sm:h-28" key={tech.name}>
+                        <TechCard image={tech.icon} title={tech.name} />
                     </div>
                 ))}
 
                 <h3 className="text-2xl w-full">Back-end</h3>
                 {tech_back.map((tech) => (
-                    <div className="w-28 h-28" key={tech.name}>
+                    <div className="w-24 h-24 sm:w-28 sm:h-28" key={tech.name}>
                         <TechCard image={tech.icon} title={tech.name} />
                     </div>
                 ))}

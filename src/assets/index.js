@@ -7,19 +7,22 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+import html from "./tech/html.webp";
 import css from "./tech/css.webp";
 import docker from "./tech/docker.webp";
+import javascript from "./tech/javascript.webp";
+import typescript from "./tech/typescript.webp";
+import bootstrap from "./tech/bootstrap.webp";
+import tailwind from "./tech/tailwind.webp";
+
 import express from "./tech/express.webp";
 import figma from "./tech/figma.webp";
 import git from "./tech/git.webp";
-import html from "./tech/html.webp";
-import javascript from "./tech/javascript.webp";
-import bootstrap from "./tech/bootstrap.webp";
 import nodejs from "./tech/nodejs.webp";
 import python from "./tech/python.webp";
+import mysql from "./tech/mysql.svg";
+import mongodb from "./tech/mongodb.svg";
 import reactjs from "./tech/reactjs.webp";
-import tailwind from "./tech/tailwind.webp";
-import typescript from "./tech/typescript.webp";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
@@ -54,6 +57,8 @@ export {
     tailwind,
     typescript,
     threejs,
+    mysql,
+    mongodb,
     meta,
     shopify,
     starbucks,

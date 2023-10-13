@@ -11,6 +11,8 @@ import {
     tailwind,
     nodejs,
     python,
+    mysql,
+    mongodb,
     bootstrap,
     git,
     figma,
@@ -21,7 +23,6 @@ import {
     shopify,
     lavelada3,
     portfolio,
-    threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -99,8 +100,16 @@ const tech_back = [
         icon: python,
     },
     {
-        name: "git",
+        name: "Git",
         icon: git,
+    },
+    {
+        name: "MySQL",
+        icon: mysql,
+    },
+    {
+        name: "MongoDB",
+        icon: mongodb,
     }
 ]
 

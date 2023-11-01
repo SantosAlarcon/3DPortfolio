@@ -8,8 +8,8 @@ const Tech = () => {
     return (
         <div className="flex flex-col justify-center gap-10">
             <div>
-                <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Estas son las tecnologías que utilizo para desarrollar mis proyectos.</p>
                 <h2 className={styles.sectionHeadText}>Tecnologías</h2>
+                <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider">Estas son las tecnologías que utilizo para desarrollar mis proyectos.</p>
             </div>
 
             <div className="flex flex-row flex-wrap justify-between sm:justify-start">

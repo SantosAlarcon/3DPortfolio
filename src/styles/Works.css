@@ -10,11 +10,24 @@
     background-color: #446;
 }
 
+.sass {
+    background-color: #998099;
+}
+
 .framer-motion {
     background-color: #242424;
+}
+
+.supabase {
+    background-color: #1c1c1c;
 }
 
 .three-js {
     background-color: #ff0;
     color: #121212;
+}
+
+.next-js {
+    background-color: #111;
+    color: #eee;
 }

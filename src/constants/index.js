@@ -23,6 +23,7 @@ import {
     shopify,
     lavelada3,
     portfolio,
+    bookmarker,
 } from "../assets";
 
 export const navLinks = [
@@ -237,6 +238,35 @@ const projects = [
         ],
         image: portfolio,
         source_code_link: "https://github.com/SantosAlarcon/3DPortfolio",
+    },
+    {
+        name: "Bookmarker",
+        description:
+            "Este es un gestor de marcadores donde el usuario puede gestionar marcadores y carpetas online.",
+        tags: [
+            {
+                name: "React",
+                color: "react",
+            },
+            {
+                name: "SASS",
+                color: "sass",
+            },
+            {
+                name: "Framer Motion",
+                color: "framer-motion",
+            },
+            {
+                name: "NextJS",
+                color: "next-js"
+            },
+            {
+                name: "Supabase",
+                color: "supabase"
+            }
+        ],
+        image: bookmarker,
+        source_code_link: "https://github.com/SantosAlarcon/bookmarker",
     },
 ];
 

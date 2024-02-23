@@ -32,7 +32,7 @@ import tesla from "./company/tesla.png";
 
 import portfolio from "./works/PortfolioSantos.webp";
 import lavelada3 from "./works/lavelada3.webp"
-import tripguide from "./tripguide.jpg";
+import bookmarker from "./works/Bookmarker.webp";
 
 export {
     logo,
@@ -65,5 +65,5 @@ export {
     tesla,
     portfolio,
     lavelada3,
-    tripguide,
+    bookmarker,
 };

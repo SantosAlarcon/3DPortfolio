@@ -111,7 +111,8 @@ const Footer = () => {
       </div>
       <p className="text-center">
         @ {new Date().getFullYear()} <b>Santos Alarcón Asensio</b> - Todos los
-        derechos reservados.
+        derechos reservados.<br/>
+        Hecho desde <b>La Mancha</b> y con el ❤️ al mundo.
       </p>
     </footer>
   )

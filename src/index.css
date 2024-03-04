@@ -214,13 +214,7 @@ html {
 }
 
 #social {
-    color: #fff6;
-    transition-timing-function: ease-in-out;
-}
-
-#social:hover {
-    color: skyblue;
-    filter: drop-shadow(0 0 .5em skyblue);
+    color: #fff;
 }
 
 .jsx::before {

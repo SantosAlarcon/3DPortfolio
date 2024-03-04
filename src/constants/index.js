@@ -213,6 +213,7 @@ const projects = [
         ],
         image: lavelada3,
         source_code_link: "https://github.com/SantosAlarcon/LaVelada3",
+        live_code_link: "https://santosalarcon.github.io/LaVelada3/",
     },
     {
         name: "Mi portfolio",
@@ -238,6 +239,7 @@ const projects = [
         ],
         image: portfolio,
         source_code_link: "https://github.com/SantosAlarcon/3DPortfolio",
+        live_code_link: "https://www.santosalarcon.es",
     },
     {
         name: "Bookmarker",
@@ -267,6 +269,7 @@ const projects = [
         ],
         image: bookmarker,
         source_code_link: "https://github.com/SantosAlarcon/bookmarker",
+	live_code_link: "https://bookmarker-rho.vercel.app",
     },
 ];
 

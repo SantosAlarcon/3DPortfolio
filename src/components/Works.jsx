@@ -71,7 +71,6 @@ const Works = () => {
 		<>
 			<motion.div variants={textVariant}>
 				<h2 className={styles.sectionHeadText}>Proyectos</h2>
-				<p className={styles.sectionSubText}>Mis proyectos</p>
 			</motion.div>
 
 			<div className="w-full flex">
@@ -81,7 +80,8 @@ const Works = () => {
 				>
 					Aquí se reflejarán los proyectos que he ido realizando a lo largo de
 					mi carrera, mostrando mis aptitudes como programador. Cada proyecto
-					está enlazado a su repositorio en GitHub.
+					está enlazado a su repositorio en GitHub.<br/><br/>
+                    Pulsa en el icono de <b>GitHub</b> para ir al repositorio, o el icono del <b>globo</b> para ver el proyecto en funcionamiento.
 				</motion.p>
 			</div>
 

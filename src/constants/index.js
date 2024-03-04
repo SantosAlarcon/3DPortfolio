@@ -53,7 +53,7 @@ const services = [
     {
         title: "Desarrollador Backend",
         icon: backend,
-    }
+    },
 ];
 
 const tech_front = [
@@ -84,8 +84,8 @@ const tech_front = [
     {
         name: "Tailwind CSS",
         icon: tailwind,
-    }
-]
+    },
+];
 
 const tech_back = [
     {
@@ -111,8 +111,8 @@ const tech_back = [
     {
         name: "MongoDB",
         icon: mongodb,
-    }
-]
+    },
+];
 
 const experiences = [
     {
@@ -199,8 +199,7 @@ const testimonials = [
 const projects = [
     {
         name: "La Velada del Año 3",
-        description:
-            `Mi versión de la 'landing page' de "La Velada del Año III" de Ibai Llanos, actualizada con los últimos datos, 100% responsive y optimizada.`,
+        description: `Mi versión de la 'landing page' de "La Velada del Año III" de Ibai Llanos, actualizada con los últimos datos, 100% responsive y optimizada.`,
         tags: [
             {
                 name: "React",
@@ -234,8 +233,8 @@ const projects = [
             },
             {
                 name: "Three JS",
-                color: "three-js"
-            }
+                color: "three-js",
+            },
         ],
         image: portfolio,
         source_code_link: "https://github.com/SantosAlarcon/3DPortfolio",
@@ -260,16 +259,16 @@ const projects = [
             },
             {
                 name: "NextJS",
-                color: "next-js"
+                color: "next-js",
             },
             {
                 name: "Supabase",
-                color: "supabase"
-            }
+                color: "supabase",
+            },
         ],
         image: bookmarker,
         source_code_link: "https://github.com/SantosAlarcon/bookmarker",
-	live_code_link: "https://bookmarker-rho.vercel.app",
+        live_code_link: "https://bookmarker-rho.vercel.app",
     },
 ];
 

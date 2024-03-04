@@ -32,7 +32,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import portfolio from "./works/PortfolioSantos.webp";
-import lavelada3 from "./works/lavelada3.webp"
+import lavelada3 from "./works/lavelada3.webp";
 import bookmarker from "./works/Bookmarker.webp";
 
 export {

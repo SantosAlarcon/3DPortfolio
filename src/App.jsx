@@ -16,7 +16,7 @@ function App() {
     return (
         <BrowserRouter>
             <div className="relative bg-primary">
-                <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+                <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
                     <Navbar />
                     <Hero />
                 </div>

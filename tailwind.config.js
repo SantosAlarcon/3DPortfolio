@@ -5,7 +5,7 @@ export default {
     theme: {
         extend: {
             height: {
-                "fill-available": "-webkit-fill-available"
+                "fill-available": "-webkit-fill-available",
             },
             colors: {
                 primary: "#050816",

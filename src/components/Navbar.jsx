@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { menu, close } from "../assets";
-import logo from "/LogoSantosAlarcon.svg"
-import "../styles/Navbar.css"
+import logo from "/LogoSantosAlarcon.svg";
+import "../styles/Navbar.css";
 
 const Navbar = () => {
     const [active, setActive] = useState("");
@@ -22,17 +22,17 @@ const Navbar = () => {
             document.body.style.overflowX = "auto";
             setTimeout(() => {
                 setZIndex("z-auto");
-            }, [1500])
+            }, [1500]);
         }
-    }, [toggle])
+    }, [toggle]);
 
     return (
         <header>
             <nav
-                className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-navbar backdrop-blur`}
+                className={`${styles.paddingX} bg-navbar fixed top-0 z-20 flex w-full items-center py-5 backdrop-blur`}
                 role="navigation"
             >
-                <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+                <div className="mx-auto flex w-full max-w-7xl items-center justify-between">
                     <Link
                         to="/"
                         className="flex items-center gap-2"
@@ -41,54 +41,65 @@ const Navbar = () => {
                             window.scrollTo(0, 0);
                         }}
                     >
-                        <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-                        <p className="text-white text-[18px] font-bold cursor-pointer flex">
+                        <img
+                            src={logo}
+                            alt="logo"
+                            className="h-9 w-9 object-contain"
+                        />
+                        <p className="flex cursor-pointer text-[18px] font-bold text-white">
                             Santos Alarcón Asensio
                         </p>
                     </Link>
-                    <ul className="list-none hidden sm:flex flex-row gap-10">
+                    <ul className="hidden list-none flex-row gap-10 sm:flex">
                         {navLinks.map((link) => (
                             <li
                                 key={link.id}
-                                className={`${active === link.title ? "text-white" : "text-secondary"
-                                    } hover:text-white text-[18px] font-medium cursor-pointer`}
+                                className={`${
+                                    active === link.title
+                                        ? "text-white"
+                                        : "text-secondary"
+                                } cursor-pointer text-[18px] font-medium hover:text-white`}
                                 onClick={() => setActive(link.title)}
                             >
                                 <a href={`#${link.id}`}>{link.title}</a>
                             </li>
                         ))}
                     </ul>
-                    <div className="sm:hidden flex flex-1 justify-end items-center">
+                    <div className="flex flex-1 items-center justify-end sm:hidden">
                         <img
                             src={toggle ? close : menu}
                             loading="lazy"
                             alt="menu"
-                            className="w-[28px] h-[28px] 
-                        object-contain cursor-pointer transition"
+                            className="h-[28px] w-[28px] 
+                        cursor-pointer object-contain transition"
                             onClick={() => setToggle(!toggle)}
                         />
                     </div>
-
                 </div>
             </nav>
             <div
-                className={`${!toggle ? "opacity-0" : "opacity-100"} flex p-6 bg-[#000b] backdrop-blur overflow-hidden fixed top-[4.5em] right-0 min-w-[100%] min-h-[100vh] transition ${zIndex} duration-300`}
+                className={`${!toggle ? "opacity-0" : "opacity-100"} fixed right-0 top-[4.5em] flex min-h-[100vh] min-w-[100%] overflow-hidden bg-[#000b] p-6 backdrop-blur transition ${zIndex} duration-300`}
             >
-                <ul className="list-none flex justify-center items-center flex-col gap-4 w-full">
+                <ul className="flex w-full list-none flex-col items-center justify-center gap-4">
                     {navLinks.map((link) => (
                         <li
                             id="mobile-menu-link"
                             key={link.id}
-                            className={`${active === link.title ? "text-white" : "text-secondary"
-                                } font-medium mobileNavLink hover:scale-150 text-[3em] transition ${toggle ? "translate-x-0" : "translate-x-96"}`}
-                            onClick={() => { setActive(link.title); setToggle(!toggle); }}
+                            className={`${
+                                active === link.title
+                                    ? "text-white"
+                                    : "text-secondary"
+                            } mobileNavLink text-[3em] font-medium transition hover:scale-150 ${toggle ? "translate-x-0" : "translate-x-96"}`}
+                            onClick={() => {
+                                setActive(link.title);
+                                setToggle(!toggle);
+                            }}
                         >
                             <a href={`#${link.id}`}>{link.title}</a>
                         </li>
                     ))}
                 </ul>
             </div>
-
         </header>
     );
 };

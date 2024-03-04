@@ -3,7 +3,7 @@
 }
 
 #mobile-menu-link:nth-child(2) {
-    transition-delay: 0.10s;
+    transition-delay: 0.1s;
 }
 
 #mobile-menu-link:nth-child(3) {
@@ -11,5 +11,5 @@
 }
 
 #mobile-menu-link:nth-child(4) {
-    transition-delay: 0.20s;
+    transition-delay: 0.2s;
 }

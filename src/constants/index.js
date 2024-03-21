@@ -24,6 +24,7 @@ import {
     lavelada3,
     portfolio,
     bookmarker,
+    iphone15pro
 } from "../assets";
 
 export const navLinks = [
@@ -269,6 +270,28 @@ const projects = [
         image: bookmarker,
         source_code_link: "https://github.com/SantosAlarcon/bookmarker",
         live_code_link: "https://bookmarker-rho.vercel.app",
+    },
+    {
+        name: "iPhone 15 Pro Clone",
+        description:
+            "Esta es una recreación de la página del iPhone 15 Pro con animación 3D y animaciones de scroll.",
+        tags: [
+            {
+                name: "React",
+                color: "react",
+            },
+            {
+                name: "GSAP",
+                color: "gsap",
+            },
+            {
+                name: "Tailwind CSS",
+                color: "tailwind",
+            },
+        ],
+        image: iphone15pro,
+        source_code_link: "https://github.com/SantosAlarcon/iphone15-clone",
+        live_code_link: "https://iphone-15-pro-clone.netlify.app/",
     },
 ];
 

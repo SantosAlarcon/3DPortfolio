@@ -7,6 +7,7 @@ const Footer = () => {
                 <a
                     href="mailto:santosalarcon86@gmail.com"
                     aria-label="Correo electrónico"
+		    title="Correo electrónico"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -23,6 +24,7 @@ const Footer = () => {
                     href="https://www.linkedin.com/in/santos-alarcon-asensio"
                     target="_blank"
                     aria-label="LinkedIn"
+		    title="Perfil de LinkedIn"
                 >
                     <svg
                         id="social"
@@ -62,6 +64,7 @@ const Footer = () => {
                     href="https://github.com/SantosAlarcon"
                     target="_blank"
                     aria-label="GitHub"
+		    title="Perfil de GitHub"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

@@ -74,6 +74,7 @@ const Contact = () => {
                     <a
                         href="/CurriculumFullStack.pdf"
                         className="flex w-fit items-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
+			title="Descargar CV"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -91,6 +92,7 @@ const Contact = () => {
                     <a
                         href="tel:641278743"
                         className="flex w-fit items-center justify-center gap-2 rounded-xl bg-tertiary px-8 py-3 font-bold text-white shadow-md shadow-primary outline-none active:scale-95 active:shadow-inner"
+			title="Número de teléfono"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

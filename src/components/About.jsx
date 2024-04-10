@@ -86,6 +86,7 @@ const About = () => {
                         className="rounded-full max-sm:mx-auto max-sm:w-[75%]"
                         alt="Santos Alarcón"
                         src={photo}
+			loading="lazy"
                     />
                 </motion.div>
             </div>

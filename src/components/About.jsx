@@ -37,7 +37,7 @@ const About = () => {
     return (
         <div className="max-sm:overflow-hidden">
             <motion.div variants={textVariant()}>
-                <h2 className={styles.sectionHeadText}>Sobre mí</h2>
+                <h1 className={styles.sectionHeadText}>Sobre mí</h1>
                 <p className={styles.sectionSubText}>Introducción</p>
             </motion.div>
 

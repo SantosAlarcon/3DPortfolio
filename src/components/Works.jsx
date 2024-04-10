@@ -75,7 +75,7 @@ const Works = () => {
     return (
         <>
             <motion.div variants={textVariant}>
-                <h2 className={styles.sectionHeadText}>Proyectos</h2>
+                <h1 className={styles.sectionHeadText}>Proyectos</h1>
             </motion.div>
 
             <div className="flex w-full">

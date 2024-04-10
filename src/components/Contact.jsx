@@ -65,7 +65,7 @@ const Contact = () => {
                 variants={slideIn("left", "tween", 0.2, 1)}
                 className="flex-[0.75] rounded-2xl bg-black-100 p-8"
             >
-                <h3 className={styles.sectionHeadText}>Contacto</h3>
+                <h1 className={styles.sectionHeadText}>Contacto</h1>
                 <p className={styles.sectionSubText}>
                     Pónte en contacto conmigo
                 </p>
